@@ -6,12 +6,26 @@ http://youtu.be/lvq1OFDgAao
 YouTubeReed Gaines
 React Router 1 Assignment Review
 
-APP --->  NAVBAR
-    --->  RANDOMDOG
-                  (state: image url)
-              |
-              V
-            IMAGE     
+
+           APP                --->  NAVBAR
+    (addNewFavorite)
+                              --->  RANDOMDOG
+                                        (state: image url)
+
+                                        |
+                                        V
+                                      IMAGE   
+
+(image: 20190128_181847.jpg in Downloads)
+1. App prepares a function that takes a URL as an argument. (URL is empty at this point.) (filled only with hopes as yet unfulfilled.)
+2. App passes down that function to RandomDog Component, which, in turn passes it down to Image Component (found only in Random Dog file).
+3. Random Dog does a second thing: it makes an axios request that actually gets the URL, which it sets the state for.
+4. Random Dog sends this URL down into the Image Component.
+5. The image component takes these two ingredients and combines them.
+6. Everything goes back (completed) to App.js
+7. I believe all that means that now, App.js is able to send a completed function, filled with delicious URL goodness back down to the rendered Components in its file. (this time, the URL is not empty, but is an actual cooked pie!)
+
+
 
 [
   {}, {}
@@ -21,6 +35,9 @@ an array of objects is an extremely powerful pattern; want to store info abotu t
 each array: a person;
 each key:value pair is one attribute;
 the array lets me see all of you at once;
+
+https://github.com/crymall/dog_fetcher
+
 
 # Ultimate Dog Image Fetcher
 
