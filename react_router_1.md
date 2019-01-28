@@ -1,5 +1,11 @@
 npm install --save react-router react-router-dom
 npm install axios
+
+reed [2:30 PM]
+http://youtu.be/lvq1OFDgAao
+YouTubeReed Gaines
+React Router 1 Assignment Review
+
 # Ultimate Dog Image Fetcher
 
 We've already used the [Dog API](https://dog.ceo/dog-api/) to get the image of a single, completely random dog. However, today we're doing something a little different. Today, we are creating a full-fledged app to fulfill all of your dog-image-searching desires.
