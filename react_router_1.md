@@ -6,6 +6,22 @@ http://youtu.be/lvq1OFDgAao
 YouTubeReed Gaines
 React Router 1 Assignment Review
 
+APP --->  NAVBAR
+    --->  RANDOMDOG
+                  (state: image url)
+              |
+              V
+            IMAGE     
+
+[
+  {}, {}
+]
+
+an array of objects is an extremely powerful pattern; want to store info abotu the students, unique to each;
+each array: a person;
+each key:value pair is one attribute;
+the array lets me see all of you at once;
+
 # Ultimate Dog Image Fetcher
 
 We've already used the [Dog API](https://dog.ceo/dog-api/) to get the image of a single, completely random dog. However, today we're doing something a little different. Today, we are creating a full-fledged app to fulfill all of your dog-image-searching desires.
